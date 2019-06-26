@@ -3,6 +3,5 @@ project(mcppchallenge VERSION 0.1.0)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(Catch2 REQUIRED)
 
-add_executable(chapter_1_1 main.cpp chapter1_1.cpp)
+add_executable(chapter_1_2 main.cpp chapter1_2.cpp)
