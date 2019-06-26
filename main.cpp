@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "chapter1_2.h"
+#include "chapter1_3.h"
 
 
 int main() 
@@ -10,7 +10,7 @@ int main()
     std::cin >> a >> b;
 
 
-    std::cout << "GCD is " << gcd(a, b) << std::endl;
+    std::cout << "LCM is " << least_common_multiple(a, b) << std::endl;
 
     return 0;
 }
